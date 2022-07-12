@@ -12,6 +12,8 @@ public class Item {
 		this.isAvailable = true;
 	}
 
+
+	
 	public String getAssetTag() {
 		return assetTag;
 	}
@@ -35,5 +37,7 @@ public class Item {
 	public void setIsAvailable(boolean isAvailable) {
 		this.isAvailable = isAvailable;
 	}
+	
+	
 }
 
